@@ -7,7 +7,7 @@
 AC_PREREQ([2.69])
 
 AC_LANG([C])
-AC_INIT([Atheme IRC Services], [7.3.0-rc2], [https://github.com/atheme/atheme/issues/], [atheme], [https://atheme.github.io/])
+AC_INIT([Atheme IRC Services], [7.3.0-vibe], [https://github.com/VibeDevelopers/atheme])
 
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_FILES([buildsys.mk extra.mk])
@@ -100,8 +100,8 @@ ATHEME_CHECK_BUILD_REQUIREMENTS
 # Automake compatibility. --nenolod
 AC_SUBST([PACKAGE], [AC_PACKAGE_TARNAME])
 AC_SUBST([VERSION], [AC_PACKAGE_VERSION])
-AC_SUBST([VENDOR_STRING], ["Atheme Development Group <https://atheme.github.io/>"])
-AC_SUBST([PACKAGE_BUGREPORT_I18N], ["ircs://irc.libera.chat:6697/atheme-i18n"])
+AC_SUBST([VENDOR_STRING], ["Vibe Development Group <https://github.com/VibeDevelopers>"])
+AC_SUBST([PACKAGE_BUGREPORT_I18N], ["ircs://irc.vibetalk.net:6697/#devs"])
 AC_DEFINE_UNQUOTED([PACKAGE], ["${PACKAGE}"], [Name of package])
 AC_DEFINE_UNQUOTED([VERSION], ["${VERSION}"], [Version number of package])
 AC_DEFINE_UNQUOTED([VENDOR_STRING], ["${VENDOR_STRING}"], [Vendor string for in-tree module headers])
