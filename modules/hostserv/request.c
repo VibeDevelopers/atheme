@@ -239,6 +239,15 @@ hs_cmd_request(struct sourceinfo *si, int parc, char *parv[])
 			return;
 		}
 	}
+
+
+		 if (MU_WAITAUTH & si->smu->flags)
+	{
+		command_fail(si, fault_noprivs, _("You must complete \2Account Verification\2 to REQUEST a vhost."));
+		return;
+	}
+
+
 	else
 	{
 		target = entity(si->smu)->name;
