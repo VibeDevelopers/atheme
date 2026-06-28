@@ -3,4 +3,4 @@
 	url = https://github.com/atheme/libmowgli-2.git
 [submodule "modules/contrib"]
 	path = modules/contrib
-	url = https://github.com/atheme/atheme-contrib-modules.git
+	url = https://github.com/VibeDevelopers/atheme-contrib-modules.git
