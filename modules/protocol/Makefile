@@ -22,6 +22,7 @@ SRCS   =                    \
     base36uid.c             \
     charybdis.c             \
     chatircd1.1.c           \
+    comet.c		    \
     elemental-ircd.c        \
     inspircd.c              \
     solanum.c               \
