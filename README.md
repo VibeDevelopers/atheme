@@ -1,4 +1,5 @@
-## Atheme IRC Services
+
+## Atheme IRC Services ![Build Status](https://github.com/VibeDevelopers/atheme/workflows/CI/badge.svg)
 
 Atheme is a set of IRC services designed for large IRC networks with high
 scalability requirements. It is relatively mature software, with some code
@@ -15,14 +16,14 @@ just by editing the configuration.
 If you have a modern version of Git (1.6.5 or newer), you can recursively
 clone the repository:
 
-    $ git clone --recursive 'https://github.com/atheme/atheme/' atheme-devel
-    $ cd atheme-devel
+    $ git clone --recursive 'https://github.com/VibeDevelopers/atheme'
+    $ cd atheme
 
 If you have an older version of Git, you must clone the repository, and then
 fetch its submodules:
 
-    $ git clone 'https://github.com/atheme/atheme/' atheme-devel
-    $ cd atheme-devel
+    $ git clone 'https://github.com/VibeDevelopers/atheme' atheme
+    $ cd atheme
     $ git submodule init
     $ git submodule update
 
