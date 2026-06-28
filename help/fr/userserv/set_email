@@ -12,4 +12,4 @@ adresse.
 Syntaxe : SET EMAIL <nouvelle adresse>
 
 Exemple :
-    /msg &nick& SET EMAIL dan@~jay/example.org
+    /msg &nick& SET EMAIL dan@example.org

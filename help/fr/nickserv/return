@@ -9,4 +9,4 @@ sur ce compte seront dés-identifiées.
 Syntaxe : RETURN <nickname> <e-mail>
 
 Exemples :
-    /msg &nick& RETURN jdoe john@~jay/example.org
+    /msg &nick& RETURN jdoe john@example.org

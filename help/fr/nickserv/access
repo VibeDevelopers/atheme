@@ -27,7 +27,7 @@ Syntaxe : ACCESS LIST <nick>
 
 Exemples :
     /msg &nick& ACCESS LIST
-    /msg &nick& ACCESS ADD jack@host.~jay/example.org
+    /msg &nick& ACCESS ADD jack@host.example.org
     /msg &nick& ACCESS ADD user@10.0.0.8
     /msg &nick& ACCESS ADD jilles@192.168.1.0/24
     /msg &nick& ACCESS DEL *someone@*.area.old.example.net

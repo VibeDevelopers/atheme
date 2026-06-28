@@ -6,5 +6,5 @@ given e-mail address. Wildcards are allowed.
 Syntax: LISTMAIL <email>
 
 Examples:
-    /msg &nick& LISTMAIL patrick@~jay/example.org
+    /msg &nick& LISTMAIL patrick@example.org
     /msg &nick& LISTMAIL *@cam.ac.uk
