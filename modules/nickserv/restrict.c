@@ -52,7 +52,7 @@ info_hook(struct hook_user_req *hdata)
 		reason = md != NULL ? md->value : "unknown";
 
 		md = metadata_find(hdata->mu, "private:restrict:timestamp");
-		ts = md != NULL ? atoLL(md->value) : 0;
+		ts = md != NULL ? atoll(md->value) : 0;
 
 		tm = localtime(&ts);
 		strftime(strfbuf, sizeof strfbuf, TIME_FORMAT, tm);
