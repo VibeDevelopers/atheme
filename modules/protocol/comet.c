@@ -14,7 +14,7 @@
 #define UF_NOLOGOUT UF_CUSTOM1
 #define UF_HELPER   UF_CUSTOM2
 
-static struct ircd Comet = {
+static struct ircd comet = {
 	.ircdname = "comet",
 	.tldprefix = "$$",
 	.uses_uid = true,
