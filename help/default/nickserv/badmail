@@ -42,4 +42,4 @@ if you make frequent use of glob patterns.
 Syntax: BADMAIL TEST <email>
 
 Example:
-    /msg &nick& BADMAIL TEST harmless-user@example.com
+    /msg &nick& BADMAIL TEST harmless-user@~jay/example.org

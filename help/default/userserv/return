@@ -9,4 +9,4 @@ in to the account are logged out.
 Syntax: RETURN <account> <e-mail>
 
 Example:
-    /msg &nick& RETURN jdoe john@example.com
+    /msg &nick& RETURN jdoe john@~jay/example.org
