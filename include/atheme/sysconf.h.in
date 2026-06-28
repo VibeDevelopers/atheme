@@ -59,6 +59,9 @@
 /* Define to 1 if you have the <arpa/inet.h> header file. */
 #undef HAVE_ARPA_INET_H
 
+/* Define to 1 if you have the `atoll' function. */
+#undef HAVE_ATOLL
+
 /* Define to 1 if you have the <Availability.h> header file. */
 #undef HAVE_AVAILABILITY_H
 
